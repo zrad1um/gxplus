@@ -1,0 +1,14 @@
+{
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/page": "app/page.js",
+  "/tariffs/be-happy/page": "app/tariffs/be-happy/page.js",
+  "/tariffs/brilliant-chutzpah/page": "app/tariffs/brilliant-chutzpah/page.js",
+  "/tariffs/entrepreneur/page": "app/tariffs/entrepreneur/page.js",
+  "/tariffs/payment-form/page": "app/tariffs/payment-form/page.js",
+  "/tariffs/pf1/page": "app/tariffs/pf1/page.js",
+  "/tariffs/pf2/page": "app/tariffs/pf2/page.js",
+  "/tariffs/pf3/page": "app/tariffs/pf3/page.js",
+  "/tariffs/poor-goy/page": "app/tariffs/poor-goy/page.js",
+  "/tariffs/thanksto/page": "app/tariffs/thanksto/page.js"
+}
