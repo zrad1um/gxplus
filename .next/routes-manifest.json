@@ -1,0 +1,109 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/tariffs/be-happy",
+      "regex": "^/tariffs/be\\-happy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tariffs/be\\-happy(?:/)?$"
+    },
+    {
+      "page": "/tariffs/brilliant-chutzpah",
+      "regex": "^/tariffs/brilliant\\-chutzpah(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tariffs/brilliant\\-chutzpah(?:/)?$"
+    },
+    {
+      "page": "/tariffs/entrepreneur",
+      "regex": "^/tariffs/entrepreneur(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tariffs/entrepreneur(?:/)?$"
+    },
+    {
+      "page": "/tariffs/payment-form",
+      "regex": "^/tariffs/payment\\-form(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tariffs/payment\\-form(?:/)?$"
+    },
+    {
+      "page": "/tariffs/pf1",
+      "regex": "^/tariffs/pf1(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tariffs/pf1(?:/)?$"
+    },
+    {
+      "page": "/tariffs/pf2",
+      "regex": "^/tariffs/pf2(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tariffs/pf2(?:/)?$"
+    },
+    {
+      "page": "/tariffs/pf3",
+      "regex": "^/tariffs/pf3(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tariffs/pf3(?:/)?$"
+    },
+    {
+      "page": "/tariffs/poor-goy",
+      "regex": "^/tariffs/poor\\-goy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tariffs/poor\\-goy(?:/)?$"
+    },
+    {
+      "page": "/tariffs/thanksto",
+      "regex": "^/tariffs/thanksto(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tariffs/thanksto(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "RSC",
+    "varyHeader": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "prefetchHeader": "Next-Router-Prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "Next-Router-Segment-Prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  },
+  "rewrites": []
+}

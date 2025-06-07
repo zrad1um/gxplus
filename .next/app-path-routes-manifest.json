@@ -1,0 +1,14 @@
+{
+  "/favicon.ico/route": "/favicon.ico",
+  "/_not-found/page": "/_not-found",
+  "/page": "/",
+  "/tariffs/be-happy/page": "/tariffs/be-happy",
+  "/tariffs/brilliant-chutzpah/page": "/tariffs/brilliant-chutzpah",
+  "/tariffs/entrepreneur/page": "/tariffs/entrepreneur",
+  "/tariffs/payment-form/page": "/tariffs/payment-form",
+  "/tariffs/pf1/page": "/tariffs/pf1",
+  "/tariffs/pf2/page": "/tariffs/pf2",
+  "/tariffs/pf3/page": "/tariffs/pf3",
+  "/tariffs/poor-goy/page": "/tariffs/poor-goy",
+  "/tariffs/thanksto/page": "/tariffs/thanksto"
+}
